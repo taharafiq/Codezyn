@@ -1,0 +1,77 @@
+template _myTemplate;
+
+public <html> HTML()
+{
+    public <head> Head()
+    {
+        public <title> Title()
+        {
+            
+        }
+    }
+    
+    public <body> Body()
+    {
+        text-align("center");
+        margin("0 0 0 0");
+        
+        public <div> Container(id="container")
+        {
+            width("960px");
+            margin("auto");
+            border("5px solid Black");         
+            
+            public <div> Header(id="header")
+            {
+                padding("50px 0 50px 0");
+                background-color("#DEDEDE");
+                color("#0F1B3D");
+                font-size("36px");
+                font-family("Arial");
+            }
+            
+            public <div> MainContent(id = "maincontent")
+            {
+                overflow("auto");
+                public <div> LeftColumn(id = "leftcol")
+                {
+                    float("left");
+                    width("200px");
+                    background-color("#141414");
+                    padding("20px 0 20px 0");
+                }
+                
+                public <div> CenterColumn(id = "centercol")
+                {
+                    text-align("left");
+                    float("left");
+                    width("500px");
+                    padding-left("10px");
+                    
+                }
+                public <div> RightColumn(id = "rightcol")
+                {
+                    float("right");
+                    width("200px");
+                    background-color("#141414");
+                    padding("20px 0 20px 0");
+                }
+            }
+            
+            public <div> Footer(id = "footer")
+            {
+                background-color("#DEDEDE");
+                padding("5px 5px 5px 5px");
+            }
+        }
+    }
+}
+
+private <div> Box(class="box")
+{
+    color("White");
+    padding("5px 5px 5px 5px");
+    margin ("5px 5px 5px 5px");
+    border("3px solid White");
+    
+}

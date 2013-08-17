@@ -1,0 +1,76 @@
+template _myTemplate;
+
+public <html> HTML()
+{
+    public <head> Head()
+    {
+        public <title> Title()
+        {
+            
+        }
+    }
+    
+    public <body> Body()
+    {
+        text-align("center");
+        margin("0 0 0 0");
+        
+        public <div> Container(id="container")
+        {
+            width("800px");
+            margin("auto");
+            border-left("5px solid Black");
+            border-right("5px solid Black");           
+            
+            public <div> Header(id="header")
+            {
+                padding("50px 0 50px 0");
+                background-color("#6B90FF");
+                background-image("url(lake.jpg)");
+                background-position("center");
+                color("#0F1B3D");
+                font-size("36px");
+                font-family("Arial");
+            }
+            
+            public <div> MainContent(id = "maincontent")
+            {
+                overflow("auto");
+                public <div> LeftColumn(id = "leftcol")
+                {
+                    float("left");
+                    width("200px");
+                    background-color("#0F1B3D");
+                    padding("20px 0 20px 0");
+                }
+                
+                public <div> RightColumn(id = "rightcol")
+                {
+                    text-align("left");
+                    float("left");
+                    width("590px");
+                    padding-left("10px");
+                    
+                }
+            }
+            
+            public <div> Footer(id = "footer")
+            {
+                background-color("gray");
+                padding("5px 5px 5px 5px");
+            }
+        }
+    }
+}
+
+private <p> RightColPara(class="RightColPara")
+{
+    padding("10px 0 10px 0");
+    border-bottom("1px solid Gray");
+}
+
+private <a> Link()
+{
+    text-decoration("none");
+    color("white");
+}

@@ -1,0 +1,18 @@
+generator _gen;
+
+Title[Hello World - Codezyn]
+Header[Welcome to Codezyn!]
+LeftColumn[
+<a href = "#">Link 1</a><br />
+<a href = "#">Link 2</a><br />
+<a href = "#">Link 3</a><br />
+<a href = "#">Link 4</a><br />
+]
+RightColumn[
+
+<p class = "RightColPara">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquam lorem quis turpis dignissim id suscipit ante placerat. Pellentesque nunc lorem, malesuada eget suscipit et, posuere a odio. Sed volutpat dignissim elit et laoreet. Aliquam aliquam, diam quis convallis iaculis, erat ante porttitor felis, adipiscing placerat sapien nisi eu sapien. Cras quis tempor diam. Suspendisse potenti. Vestibulum tristique leo odio, vel tristique neque. Aenean sit amet elit in arcu porttitor vulputate. Integer vel sapien ipsum, a mollis lectus. Nam aliquam leo at diam commodo blandit. Praesent mattis fermentum nibh. Suspendisse potenti. Suspendisse a diam mi. Morbi hendrerit eros et turpis aliquet id venenatis eros pulvinar. Integer quis nisi est. Vestibulum nisi leo, convallis ac interdum nec, consectetur vitae est. Quisque nibh justo, euismod porta aliquam eget, lacinia vel tortor.</p>
+
+<p class = "RightColPara">Nunc eu eros neque, non venenatis ipsum. Cras nibh sem, vestibulum non semper in, sodales sit amet velit. Vestibulum sed velit quis nisl facilisis euismod nec ut nisl. Suspendisse id augue sem, sit amet dictum nulla. Sed facilisis tortor vel tortor feugiat mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla lorem nisl, pharetra a porttitor vel, venenatis hendrerit nulla. Nullam eget nisi eget erat ultrices fringilla. Aliquam nec ligula justo. Morbi faucibus tincidunt urna sit amet congue. Aliquam imperdiet, metus vel volutpat viverra, dolor metus fringilla eros, vel feugiat nunc quam a sem. Duis lacus libero, faucibus a ullamcorper sed, eleifend sed risus. Morbi erat magna, commodo ultrices pharetra quis, aliquet eu eros.</p> 
+
+]
+Footer[&copy; Taha Rafiq, 2010.]
